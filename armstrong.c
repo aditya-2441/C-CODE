@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<ncurses.h>
 #include<math.h>
 void main()
 {
