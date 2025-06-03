@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-void main()
+int main()
 {
     int n, sum = 0, temp, remainder, digits = 0;
     printf("Enter an integer: ");
@@ -22,5 +22,5 @@ void main()
         {printf("%d is an Armstrong number.\n", n);}
     else
         {printf("%d is not an Armstrong number.\n", n);}
-    getchar();
+    return 0;
 }
